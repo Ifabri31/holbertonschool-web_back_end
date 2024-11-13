@@ -1,5 +1,5 @@
 export function taskFirst() {
-    const task = 'I prefer const when I can.'; // Declaración con const para variable que no cambia
+    const task = 'I prefer const when I can.';
     return task;
   }
   
@@ -8,7 +8,7 @@ export function taskFirst() {
   }
   
   export function taskNext() {
-    let combination = 'But sometimes let'; // Declaración con let para variable que se modifica
+    let combination = 'But sometimes let';
     combination += getLast();
   
     return combination;
