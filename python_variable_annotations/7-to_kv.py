@@ -3,6 +3,7 @@
 Module documented
 """
 
+
 from typing import Tuple, Union
 
 

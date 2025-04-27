@@ -3,6 +3,7 @@
 Module documented
 """
 
+
 from typing import Iterable, List, Tuple, Sequence
 
 

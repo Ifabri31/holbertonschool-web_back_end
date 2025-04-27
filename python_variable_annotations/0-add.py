@@ -3,5 +3,6 @@
 Module documented
 """
 
+
 def add(a: float, b: float) -> float:
     return a + b
