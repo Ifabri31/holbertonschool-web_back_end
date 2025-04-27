@@ -5,4 +5,7 @@ Module documented
 
 
 def to_str(n: float) -> str:
+    """
+    Function documented
+    """
     return "{}".format(n)

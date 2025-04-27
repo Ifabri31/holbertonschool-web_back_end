@@ -5,4 +5,7 @@ Module documented
 
 
 def add(a: float, b: float) -> float:
+    """
+    Function documented
+    """
     return a + b
