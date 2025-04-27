@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Module documented
+"""
+
 from typing import Iterable, List, Tuple, Sequence
 
 
