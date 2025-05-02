@@ -1,0 +1,7 @@
+// my comment
+const result = db.school.insertOne({
+  name: "Holberton school"
+});
+
+// my comment
+print("WriteResult({ \"nInserted\" : " + (result.acknowledged ? 1 : 0) + " })");
