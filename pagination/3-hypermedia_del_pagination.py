@@ -47,12 +47,12 @@ class Server:
         assert index <= dataset_size
         next_i = index + page_size
         if next_i >= dataset_size:
-        next_i = None
+            next_i = None
         data = [
             dataset.get(i)
             for i in range(index, min(index + page_size, dataset_size))
             if dataset.get(i) is not None
-        ]
+            ]
         return {
             'index': index,
             'data': data,
